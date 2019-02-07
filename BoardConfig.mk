@@ -17,9 +17,9 @@
 
 include device/lge/z-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := lineageos_f340l_defconfig
+TARGET_KERNEL_CONFIG := lineageos_d955_defconfig
 
-TARGET_OTA_ASSERT_DEVICE := f340l,LG-F340L,zee
+TARGET_OTA_ASSERT_DEVICE := d955,LG-d955
 
-Z_DTS_TARGET := msm8974-z-kr
+Z_DTS_TARGET := msm8974-z-open_com
 

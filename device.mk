@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lge/f340l/f340l-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/d955/d955-vendor.mk)
 $(call inherit-product, device/lge/z-common/zee.mk)
 
 ## overlays
@@ -22,4 +22,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensor_def_f340l.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def_variable.conf
+    $(LOCAL_PATH)/configs/sensor_def_d955.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def_variable.conf
